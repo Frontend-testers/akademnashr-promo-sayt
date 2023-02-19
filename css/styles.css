@@ -78,6 +78,16 @@ color: #FFFFFF;
   letter-spacing: 0.5px;
 }
 
+.icon {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(255, 117, 0, 0.2);
+}
+
+.list-box {
+  width: 340px;
+}
+
 .promo-thesis {
   width: 214px;
   height: 29px;
@@ -120,6 +130,12 @@ color: #FFFFFF;
 }
 .yellow-text {
   color: #ff7500;
+}
+
+.sale-img {
+  width: 440px;
+  height: 440px;
+  object-fit: cover;
 }
 
 .footer {
