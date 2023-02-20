@@ -8,6 +8,29 @@
   word-spacing: 20px;
   text-indent: 30px;
 } */
+body {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+}
+
+body h1,h2 {
+  font-family: "Roboto Condensed","Arial", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 120%;
+}
+
+header {
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+button {
+  font-weight: 700;
+}
 
 .header {
   background-color: #fff;
@@ -53,7 +76,6 @@
 }
 
 .hero-heading {
-font-weight: 700;
 font-size: 40px;
 line-height: 120%;
 /* or 48px */
@@ -91,7 +113,6 @@ color: #FFFFFF;
 .promo-thesis {
   width: 214px;
   height: 29px;
-  font-weight: 700;
   font-size: 24px;
   line-height: 120%;
   letter-spacing: 0.5px;
@@ -100,9 +121,6 @@ color: #FFFFFF;
 .promo-text {
   width: 314px;
   height: 72px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
   letter-spacing: 0.5px;
 }
 
@@ -116,18 +134,11 @@ color: #FFFFFF;
 }
 
 .sale-heading {
-  font-weight: 700;
   font-size: 40px;
   line-height: 120%;
   letter-spacing: 0.5px;
 }
 
-.sale-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.5px;
-}
 .yellow-text {
   color: #ff7500;
 }
@@ -151,8 +162,6 @@ ul {
 }
 
 .footer-link {
-  font-weight: 400;
-  font-size: 16px;
   line-height: 19px;
   text-decoration: none;
   color: #252420;
