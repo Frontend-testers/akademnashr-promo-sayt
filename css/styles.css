@@ -34,6 +34,14 @@ button {
 
 .header {
   background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-header-actions {
+  display: flex;
+  align-items: center;
 }
 
 .site-nav{
@@ -45,6 +53,10 @@ button {
   text-transform: uppercase;
   text-decoration: none;
   color: #000;
+}
+
+.site-nav-list {
+  display: flex;
 }
 
 .main-button {
@@ -59,6 +71,9 @@ button {
 .python-book {
   background-color: #252420;
   color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .class-content {
@@ -74,6 +89,11 @@ button {
   width: 80px;
   height: 3px;
   background-color: #ff7500;
+}
+
+.feature-list {
+  display: flex;
+  justify-content: space-between;
 }
 
 .hero-heading {
@@ -128,6 +148,9 @@ color: #FFFFFF;
 .sale {
   background-color: #252420;
   color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .sale-container {
@@ -154,9 +177,25 @@ color: #FFFFFF;
   background-color: #f8f8f8;
 }
 
+.site-footer-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-icons {
+  display: flex;
+  text-decoration: none;
+}
+
 ul {
   list-style: none;
 } /* this is for list items given in the whole page */
+
+.site-footer-link {
+  display: flex;
+
+}
 
 .footer-links{
   width: 224px;
