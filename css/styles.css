@@ -28,6 +28,17 @@ body h1,h2 {
   letter-spacing: 1px;
 } */
 
+.logo-link {
+  transition:opacity 0.4s ease;
+}
+.logo-link:hover {
+  opacity: 0.8;
+}
+.logo-link:active {
+  opacity: 0.6;
+}
+
+
 button {
   font-weight: 700;
 }
@@ -53,8 +64,15 @@ button {
   text-transform: uppercase;
   text-decoration: none;
   color: #000;
+  transition: color 0.4s ease,
+  opacity 0.4s ease;
 }
-
+.site-nav:hover {
+  color: #ff7500;
+}
+.site-nav:active {
+  opacity: 0.6;
+}
 .site-nav-list {
   display: flex;
 }
@@ -66,6 +84,13 @@ button {
   color: #fff;
   text-decoration: none;
   letter-spacing: 0.5px;
+  transition: opacity 0.4s ease;
+}
+.main-button:hover{
+  opacity: 0.8;
+}
+.main-button:active {
+  opacity: 0.6;
 }
 
 .python-book {
@@ -186,6 +211,17 @@ color: #FFFFFF;
 .footer-icons {
   display: flex;
   text-decoration: none;
+
+}
+.footer-icons a{
+  color: #252420;
+  transition: color 0.3s ease;
+}
+.footer-icons a:hover {
+  color: #ff7500;
+}
+.footer-icons a:active {
+  opacity: 0.6;
 }
 
 ul {
@@ -205,10 +241,19 @@ ul {
   line-height: 19px;
   text-decoration: none;
   color: #252420;
+  transition: color 0.4s ease,
+  opasity 0.4s ease;
 }
 
 .footer-line {
   width: 1100px;
   height: 2px;
   background: rgba(37, 36, 32, 0.5);
+}
+
+.footer-link:hover {
+  color: #ff7500;
+}
+.footer-link:focus {
+  opacity: 0.6;
 }
