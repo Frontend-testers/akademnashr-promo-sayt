@@ -279,19 +279,26 @@ margin-bottom: 24px;
 .footer-icons li{
   margin-right: 16px;
 }
+
 .footer-icons li:last-child{
   margin-right: 0;
 }
 
+
 .footer-icons a{
   color: #252420;
   transition: color 0.3s ease;
+  display: block;
 }
 .footer-icons a:hover {
   color: #ff7500;
 }
 .footer-icons a:active {
   opacity: 0.6;
+}
+
+.footer-icons svg {
+  display: block;
 }
 
 ul {
