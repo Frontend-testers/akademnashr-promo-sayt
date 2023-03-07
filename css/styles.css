@@ -41,7 +41,7 @@ body h1,h2 {
 }
 .container{
   width: 100%;
-  max-width: 1120;
+  max-width: 1140px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
@@ -71,6 +71,8 @@ button {
   padding-top: 16px;
   padding-bottom: 16px;
   background-color: #fff;
+}
+.header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -135,6 +137,9 @@ button {
 .python-book {
   background-color: #252420;
   color: #fff;
+
+}
+.python-book-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -150,6 +155,7 @@ button {
   height: 510px;
   width: 510px;
   border-radius: 8px;
+  /* box-shadow: 24px 24px 0 0 rgba(255, 117, 0, 0.6) ; because the picture itself contains shadow*/
 }
 
 .orange-hr {
@@ -211,9 +217,13 @@ margin-bottom: 24px;
   height: 100px;
   background-color: rgba(255, 117, 0, 0.2);
   border-radius: 50%;
+  margin-bottom: 32px;
+
 }
 
 .list-box {
+  margin-bottom: 12px;
+  margin-top: 0;
   width: 340px;
   margin-right: 40px;
 }
@@ -230,6 +240,8 @@ margin-bottom: 24px;
 }
 
 .promo-text {
+  padding-top: 10px;
+  margin: 0;
   width: 314px;
   height: 72px;
   letter-spacing: 0.5px;
@@ -237,16 +249,21 @@ margin-bottom: 24px;
 
 /* AKSIYA */
 
-.sale {
-  background-color: #252420;
+.sale{
+  padding-top: 120px;
+  padding-bottom: 160px;
+}
+
+.aksiya-inner{
   color: #fff;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* padding-top: 120px;
-  padding-bottom: 160px; */
   border-radius: 12px;
+  background-color: #252420;
+  padding: 64px;
 }
+
 
 .sale-container {
   width: 440px;
@@ -353,7 +370,12 @@ ul {
   transition: color 0.4s ease,
   opasity 0.4s ease;
 }
-
+.footer-links li{
+  margin-bottom: 16px;
+}
+.footer-links li:last-child{
+  margin-bottom: 0;
+}
 .footer-line {
   width: 1100px;
   height: 2px;
