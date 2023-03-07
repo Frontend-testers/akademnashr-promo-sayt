@@ -8,12 +8,16 @@
   word-spacing: 20px;
   text-indent: 30px;
 } */
+
+/* HEADING AND ALL THE OTHER THINGS */
 body {
   font-family: "Roboto", "Arial", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.5px;
+  padding: 0;
+  margin: 0;
 }
 
 body h1,h2 {
@@ -32,7 +36,18 @@ body h1,h2 {
   font-weight: 500;
   letter-spacing: 1px;
 } */
-
+*{
+  box-sizing: border-box;
+}
+.container{
+  width: 100%;
+  max-width: 1120;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* header */
 .logo-link {
   transition:opacity 0.4s ease;
 }
@@ -115,6 +130,8 @@ button {
   opacity: 0.6;
 }
 
+/* PROMO */
+
 .python-book {
   background-color: #252420;
   color: #fff;
@@ -169,6 +186,8 @@ margin-bottom: 24px;
   margin-bottom: 32px;
 }
 
+/* PROMO */
+
 .promo {
   background-color: #fff;
   padding-top: 210px;
@@ -216,6 +235,8 @@ margin-bottom: 24px;
   letter-spacing: 0.5px;
 }
 
+/* AKSIYA */
+
 .sale {
   background-color: #252420;
   color: #fff;
@@ -259,6 +280,8 @@ margin-bottom: 24px;
   object-fit: cover;
   border-radius: 12px;
 }
+
+/* FOOTER */
 
 .footer {
   background-color: #f8f8f8;
